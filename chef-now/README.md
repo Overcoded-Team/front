@@ -40,4 +40,3 @@ expo start
 - Use apenas `@expo/vector-icons`.
 
 ---
-Desenvolvido com ❤️ usando Expo.
