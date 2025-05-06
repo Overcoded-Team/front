@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# Chef Now (Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este projeto é um app de culinária feito em React Native com Expo.
 
-## Get started
+## 📦 Pré-requisitos
 
-1. Install dependencies
+- Node.js instalado
+- Expo CLI: instale com `npm install -g expo-cli`
+- Editor de código (como VSCode)
+- Celular com Expo Go **ou** emulador Android
 
-   ```bash
-   npm install
-   ```
+## ▶️ Como rodar
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+1. **Instale as dependências:**
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. **Inicie o projeto:**
 
-## Learn more
+```bash
+expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. **Visualize no celular:**
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- Instale o app **Expo Go**
+- Escaneie o QR Code exibido no terminal ou navegador
 
-## Join the community
+## 📁 Estrutura
 
-Join our community of developers creating universal apps.
+- `App.tsx` — ponto de entrada que chama o navegador de rotas
+- `AppNavigator.tsx` — navegação stack entre todas as telas
+- Várias telas: `HomeScreen.tsx`, `ChefsScreen.tsx`, `ItalianaScreen.tsx`, etc.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## ✅ Observações
+
+- Não utilize `npx react-native start`, pois este é um projeto **Expo**.
+- Use apenas `@expo/vector-icons`.
+
+---
+Desenvolvido com ❤️ usando Expo.

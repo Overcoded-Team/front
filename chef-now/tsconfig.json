@@ -6,9 +6,11 @@
       "@/*": [
         "./*"
       ]
-    }
+    },
+    "esModuleInterop": true
   },
   "include": [
+    "types/**/*.d.ts",
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
