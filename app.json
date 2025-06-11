@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "ChefDeliveryApp",
+    "slug": "ChefDeliveryApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "https://via.placeholder.com/1024/FF5722/FFFFFF?text=Logo",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "https://via.placeholder.com/1242x2436/FF5722/FFFFFF?text=Splash",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "https://via.placeholder.com/1024/FF5722/FFFFFF?text=Logo",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "https://via.placeholder.com/32/FF5722/FFFFFF?text=Logo"
+    }
+  }
+}
